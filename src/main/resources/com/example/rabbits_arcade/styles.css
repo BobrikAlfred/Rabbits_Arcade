@@ -67,8 +67,16 @@
 .color-picker .color-picker-label, .color-picker .arrow{
     visibility: false; /* Скрываем label и стрелку*/
 }
-.tab {
-    -fx-alignment: center;
-    text-transform: uppercase;
-    -fx-pref-width: 112;
+.tab .tab-label{
+    -fx-alignment: CENTER;
+    -fx-pref-width: 100;
+}
+.table-cell {
+    -fx-alignment: center; /* Выравнивание текста по центру */
+}
+.tab-down-button {
+-fx-padding: 0;
+}
+.tab-down-button .arrow {
+-fx-padding: 0;
 }

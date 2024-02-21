@@ -6,13 +6,13 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
 <StackPane id="root" fx:id="root" alignment="BOTTOM_CENTER"
-           stylesheets="styles.css"
+           stylesheets="@styles.css"
            xmlns="http://javafx.com/javafx/17.0.2-ea"
            xmlns:fx="http://javafx.com/fxml/1"
            fx:controller="com.example.rabbits_arcade.MenuController">
 
     <ImageView preserveRatio="true" styleClass="centered-image">
-        <Image url="label.jpg"/>
+        <Image url="@label.jpg"/>
         <fitWidth>865</fitWidth>
     </ImageView>
     <StackPane fx:id="dialogWindow" maxWidth="300" maxHeight="100" alignment="BOTTOM_CENTER" translateY="-500" visible="false">
@@ -59,8 +59,8 @@
         </HBox>
         <Button onAction="#back" prefHeight="26.0" prefWidth="240" text="назад" id="2"/>
     </VBox>
-    <VBox fx:id="tableLeaders" maxHeight="500" maxWidth="240" visible="false">
-        <TabPane tabClosingPolicy="UNAVAILABLE" maxHeight="295" maxWidth="240">
+    <VBox fx:id="tableLeaders" maxHeight="500" maxWidth="250" visible="false">
+        <TabPane tabClosingPolicy="UNAVAILABLE" maxHeight="295" maxWidth="250">
             <Tab text="одиночная игра">
                 <AnchorPane maxHeight="500" maxWidth="240">
                     <TableView fx:id="tableRecords1">

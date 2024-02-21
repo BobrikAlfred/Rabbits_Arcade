@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Rabbits_Arcade:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34124d4e-e703-4c9b-9832-dd74270c8478" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Rabbits_Arcade_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Rabbits_Arcade_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/AppData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/AppData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Carrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Carrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Scenery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Scenery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Snowman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rabbits_arcade/Snowman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rabbits_arcade/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="98b93b5b-a127-4105-b6c1-18c90a3f8286" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2cPCXmdfaiYSQyqhEPvluCgGXFO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +57,69 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Rabbits_Arcade",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Rabbits_Arcade\src\main\resources\com\example\rabbits_arcade" />
+      <recent name="C:\Users\user\IdeaProjects\Rabbits_Arcade\src\main\java\com\example\rabbits_arcade" />
+      <recent name="C:\Users\user\IdeaProjects\Rabbits_Arcade\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.rabbits_arcade" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.Rabbits_Arcade.jar">
+    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbits_arcade.GameController" />
+      <module name="Rabbits_Arcade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.rabbits_arcade.Launcher" />
+      <module name="Rabbits_Arcade" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rabbits_Arcade.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Rabbits_Arcade_jar/Rabbits_Arcade.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Rabbits_Arcade_jar.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Rabbits_Arcade_jar/Rabbits_Arcade_jar.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.GameController" />
+      <item itemvalue="JAR Application.Rabbits_Arcade.jar" />
+      <item itemvalue="JAR Application.Rabbits_Arcade_jar.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.Rabbits_Arcade.jar" />
+        <item itemvalue="Application.GameController" />
+        <item itemvalue="JAR Application.Rabbits_Arcade_jar.jar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

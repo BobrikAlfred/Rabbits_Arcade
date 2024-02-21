@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<StackPane id="root" fx:id="root" alignment="BOTTOM_CENTER"
+           stylesheets="styles.css"
+           xmlns="http://javafx.com/javafx/17.0.2-ea"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.example.rabbits_arcade.MenuController">
+
+    <ImageView preserveRatio="true" styleClass="centered-image">
+        <Image url="label.jpg"/>
+        <fitWidth>865</fitWidth>
+    </ImageView>
+    <StackPane fx:id="dialogWindow" maxWidth="300" maxHeight="100" alignment="BOTTOM_CENTER" translateY="-500" visible="false">
+        <Label fx:id="dialogLabel" prefWidth="300" prefHeight="100" text="введите имя"/>
+        <HBox fx:id="entryField" maxWidth="300" maxHeight="26" visible="false">
+            <TextField fx:id="inputTextField" prefWidth="180" prefHeight="26" maxWidth="180"/>
+            <Button text="подтвердить"  prefWidth="120" maxWidth="120" onAction="#continueThread"/>
+        </HBox>
+    </StackPane>
+    <VBox fx:id="mainMenu" maxHeight="250" maxWidth="120">
+        <Button fx:id="continueButton" onAction="#continueGame" prefHeight="26.0" prefWidth="120" text="продолжить" visible="false"/>
+        <Button onAction="#choicePlayers" prefHeight="26.0" prefWidth="120" text="начать новую игру" />
+        <Button onAction="#openOption" prefHeight="26.0" prefWidth="120" text="настройки" />
+        <Button onAction="#openRecords" prefHeight="26.0" prefWidth="120.0" text="таблица рекордов" />
+        <Button onAction="#closeGame" prefHeight="26.0" prefWidth="120" text="выход из игры" />
+    </VBox>
+    <VBox fx:id="selectPlayer" maxHeight="250" maxWidth="120" visible="false">
+        <Button onAction="#startGame" prefHeight="26.0" prefWidth="120" text="один игрок" />
+        <Button onAction="#startGame" prefHeight="26.0" prefWidth="120" text="два игрока" />
+        <Button onAction="#back" prefHeight="26.0" prefWidth="120.0" text="назад" id="1"/>
+    </VBox>
+    <VBox fx:id="optionsMenu" maxHeight="500" maxWidth="240" visible="false">
+        <VBox id="musicChoice">
+            <HBox maxHeight="18" maxWidth="240">
+                <Label id="music" fx:id="musicVolText" prefHeight="18.0" prefWidth="165"/>
+                <Slider id="musicS" fx:id="musicVol" prefHeight="30.0" prefWidth="75.0" max="1" />
+            </HBox>
+            <HBox maxHeight="18" maxWidth="240">
+                <Label id="effects" fx:id="effectVolText" prefHeight="18.0" prefWidth="165"/>
+                <Slider id="effectsS" fx:id="effectVol" prefHeight="30.0" prefWidth="75.0" max="1" />
+            </HBox>
+        </VBox>
+        <HBox>
+            <VBox id="player1">
+                <Label alignment="CENTER" prefHeight="26.0" prefWidth="120">первый игрок</Label>
+                <ColorPicker fx:id="colorPicker1P" prefHeight="26.0" prefWidth="120" />
+                <Button prefHeight="48.0" prefWidth="120.0" text="настроить&#10;управление" onAction="#setControl"/>
+            </VBox>
+            <VBox id="player2">
+                <Label alignment="CENTER" prefHeight="26.0" prefWidth="120">второй игрок</Label>
+                <ColorPicker fx:id="colorPicker2P" prefHeight="26.0" prefWidth="120" />
+                <Button prefHeight="48.0" prefWidth="120.0" text="настроить&#10;управление" onAction="#setControl"/>
+            </VBox>
+        </HBox>
+        <Button onAction="#back" prefHeight="26.0" prefWidth="240" text="назад" id="2"/>
+    </VBox>
+    <VBox fx:id="tableLeaders" maxHeight="500" maxWidth="240" visible="false">
+        <TabPane tabClosingPolicy="UNAVAILABLE" maxHeight="295" maxWidth="240">
+            <Tab text="одиночная игра">
+                <AnchorPane maxHeight="500" maxWidth="240">
+                    <TableView fx:id="tableRecords1">
+                        <columns>
+                            <TableColumn fx:id="name1" prefWidth="125" text="имя"/>
+                            <TableColumn fx:id="points1" prefWidth="125" text="очки"/>
+                        </columns>
+                    </TableView>
+                </AnchorPane>
+            </Tab>
+            <Tab text="два игрока">
+                <AnchorPane maxHeight="500" maxWidth="250">
+                    <TableView fx:id="tableRecords2">
+                        <columns>
+                            <TableColumn fx:id="name2" prefWidth="125" text="имя"/>
+                            <TableColumn fx:id="points2" prefWidth="125" text="очки"/>
+                        </columns>
+                    </TableView>
+                </AnchorPane>
+            </Tab>
+        </TabPane>
+        <Button onAction="#back" prefWidth="250" text="назад" id="3"/>
+    </VBox>
+</StackPane>
